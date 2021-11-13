@@ -1,0 +1,11 @@
+.lazy-load-box{
+    margin-bottom: 500px;
+    background: url('/img/icon/inpage_loader.gif') no-repeat center center; 
+    background-position: 50% 50%;
+    width:300px;
+    height:300px;
+}
+.lazy-load.box img{
+    width:100%;
+    height:100%;
+}

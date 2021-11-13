@@ -1,0 +1,11 @@
+{
+    "/js/prod/main.js": "/js/prod/main.js",
+    "/js/prod/main_preload.js": "/js/prod/main_preload.js",
+    "/js/prod/index.js": "/js/prod/index.js",
+    "/js/prod/template/typography.js": "/js/prod/template/typography.js",
+    "/css/prod/main.css": "/css/prod/main.css",
+    "/css/prod/index.css": "/css/prod/index.css",
+    "/css/prod/template/typography.css": "/css/prod/template/typography.css",
+    "/css/prod/homepage.css": "/css/prod/homepage.css",
+    "/js/prod/homepage.js": "/js/prod/homepage.js"
+}

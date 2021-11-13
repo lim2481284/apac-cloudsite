@@ -1,0 +1,82 @@
+x@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1025px) {}
+
+@media screen and (max-width: 900px) {
+
+    .checkbox-tools:checked+label,
+    .checkbox-tools:not(:checked)+label {
+        width: 47% !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .checkbox-tools:checked+label,
+    .checkbox-tools:not(:checked)+label {
+        width: 47% !important;
+    }
+    .serviceContainer{
+        top: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        padding-bottom: 25% !important;
+        overflow: auto !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-box{
+        margin-bottom: 15px;
+    }
+    .checkbox-tools:checked+label,
+    .checkbox-tools:not(:checked)+label {
+        width: 100% !important;
+    }
+    .quoteContainer {
+        overflow:auto !important;
+        padding-bottom: 15%;
+    }
+    .container{
+        max-width: 80vw !important;
+    }
+    .contactContainer {
+        overflow: auto !important;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .about-content{
+        margin: 40px 0 !important;
+    }
+    .about-content .col-sm-7 {
+        order: 2 !important;
+    }
+    .about-content .col-sm-5 {
+        order: 1 !important;
+    }
+    .aboutSection .cloudsite{
+        max-width: 60px !important;
+        position: relative !important; 
+        transform: initial !important;
+        left:0 !important;
+        top:0 !important;
+    }
+    .aboutSection h1{
+        padding-top: 25px !important;
+    }
+    
+        
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    .quoteContainer.active{
+        width:100% !important;
+    }
+
+}
+
+@media screen and (max-width: 320px) {}
