@@ -1,0 +1,123 @@
+.shipping-service-item img{
+    width:100%;
+}
+.shipping-service-item h1{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top:10px;
+}
+.shipping-service-item .service-duration{
+    opacity: 0.8;
+}
+.shipping-service-item .service-rate{
+    color: #1d0d57;
+    font-size: 18px;
+    font-weight: 700;
+}
+.shipping-service-item{
+    padding: 5%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.shipping-service-item:hover{
+    transform:scale(1.03);    
+}
+.modal{
+    overflow:auto !important;
+}
+.shipping-service-item.active{
+    background: rgba(0,0,0,0.03);
+    border: 2px solid lightgray;
+    position: relative;
+    z-index: 100;
+}
+
+.flex-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hidden-section{
+    display:none;
+}
+
+
+tbody select{
+    width:auto !important;
+}
+
+.tooltip_menus a{
+    width:100%;
+}
+
+h6{
+    opacity: 0.3;
+}
+
+.service-rate img{
+    width: 20px;
+    margin-top: -4px;
+}
+
+.alert-info{
+    background: #e6ecff;
+    color: #5b61b9;
+    font-size: var(--paragraph-font-size);
+}
+.alert-danger{
+    background: #ff6038;
+    color: white;
+    font-size: var(--paragraph-font-size);
+}
+
+.beat-animation{
+    animation: beat-animation 2s infinite;
+}
+@keyframes beat-animation {
+    0%    {transform:scale(1);}
+    25%   {transform:scale(1.05);}
+    40%   {transform:scale(0.9);}
+    75%   {transform:scale(1.1);}
+    100%  {transform:scale(1);}
+}
+
+
+
+.grid-box-item:hover{
+    box-shadow: 2px 2px 25px #e9e9e9;
+}
+
+.grid-box-item{
+    height:400px;
+}
+.grid-box-item .img-section{
+    height:80px;
+}
+.grid-box-item .img-section img{
+    height:95%;
+}
+
+.grid-box-item i{
+    padding-right: 15px;
+}
+
+.grid-box-item select{
+    display: inline-block;
+    height: auto;
+    width: 80%;
+}
+
+.grid-box-item .detail{
+    padding-top: 15px;
+    border-top: 1px dashed #e5e5e5;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.grid-box-item .content-section p{
+    margin-bottom: 12px;
+}

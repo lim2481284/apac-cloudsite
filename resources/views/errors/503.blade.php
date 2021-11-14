@@ -1,26 +1,14 @@
-@extends("layout.layout")
+@extends('errors.layout')
 
-@section('head')
-  
+@section('code', '503 🚀 ')
+
+@section('title', 'System Under Maintenance')
+
+@section('image')
+
+<div style="background-image: url('/img/picture/500.jpg');" class="absolute pin bg-no-repeat md:bg-left lg:bg-center">
+</div>
+
 @endsection
 
-@section('content')
-
-    <article>
-        <h1>System is under maintenance.</h1>
-        <div>
-            <p>Sorry for the inconvenience but we&rsquo;re performing some improvement at the moment. </p>
-            <p>&mdash; The Unionpaycards Team</p>
-        </div>
-    </article>
-
-
-    <article>
-        <h1>系统正在改善中</h1>
-        <div>
-            <p>很抱歉给您带来不便，我们目前正在进行一些改进 </p>
-            <p>&mdash; The Unionpaycards Team</p>
-        </div>
-    </article>
-
-@stop
+@section('message', ' We are LEVELING UP to serve you better !! Please try again later.')

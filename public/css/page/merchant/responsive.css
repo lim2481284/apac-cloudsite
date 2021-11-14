@@ -1,0 +1,466 @@
+@media screen and (max-width: 1600px) {
+    .topnav-title{
+        margin-top: -5px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .topnav-title{
+        margin-top: 0px;
+    }
+    #progress-parent {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .dashboard-list .list-content.referrar {
+        margin-bottom: 20px;   
+    }
+
+    .onboarding-info-section .onboarding-progress {
+        display: block;
+    }
+
+    .onboarding-info-section .arrow-section {
+        position: relative;
+    }
+
+    .no-data-section img {
+        width: 20% !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #pageContent {
+        padding-left: 5% !important;
+        padding-bottom: 80px;
+        background-color: #fff;
+        padding-top: 20px !important;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .info-back-btn {
+        margin-right: auto;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    .guideline-panel,
+    .custom-menu {
+        display: none !important;
+    }
+
+    .tools-button button {
+        top: 15px;
+    }
+
+    .hamburger-btn,
+    .hamburger-btn svg {
+        display: inline-block;
+    }
+
+    .mobile-bottom-nav {
+        display: flex;
+    }
+
+    .notes-box.active {
+        width: 90%;
+        bottom: 125px;
+    }
+
+    .tool-list {
+        top: 75px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #topNav {
+        display: none;
+
+    }
+
+    .circle-btn {
+        float: left;
+        display: block;
+        margin-left: 20px !important;
+        margin-top: 20px !important;
+        margin-right: 0 !important;
+    }
+
+    .circle-btn.global-form-btn {
+        margin-left: 35px !important;
+    }
+
+    .table-section .title {
+        width: 100%;
+    }
+
+    .history-section {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .linechart-canvas {
+        margin-top: 10px;
+    }
+
+    .credit-row-divider {
+        display: none;
+    }
+
+    .checkout-container .back-btn {
+        float: inherit;
+        margin: 0 !important;
+    }
+
+    .merchant-account-col .nav-link {
+        padding: 12px 5px !important;
+    }
+
+    #assistanceModal .assistance-direct-icon {
+        display: none;
+    }
+
+    .info-row {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .notification-box .search-section {
+        width: 100%;
+    }
+
+    .livechat-solution-col {
+        display: none;
+    }
+
+    .login-box.forgot-box {
+        width: 50vw;
+    }
+
+    .mobile-drag-scroll .mobile-drag-content {
+        flex-wrap: nowrap;
+    }
+
+    .mobile-drag-scroll .mobile-drag-title {
+        display: block;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .mobile-drag-scroll.first-content {
+        margin-top: 13%;
+    }
+       
+    #overviewChart {
+        margin-bottom: 80px;
+    }
+    
+    .dashboard-list {
+        width: 30% !important;
+        padding: 10px 10px !important;
+    }
+    .dashboard-view-list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    
+    .dashboard-list .list-content p {
+        margin-bottom: 10px !important;
+    }
+    
+    .activity-list .list-item {
+        width: 40%;
+    }
+    
+    .referral-account ul li {
+      margin-right: 30px;   
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #pageContent .row .custom-item-box2 {
+        padding-right: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pageContent .custom-item-box2 .image-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+        height: auto;
+    }
+
+    #pageContent .custom-item-box2 .content-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0 !important;
+        width: 85% !important;
+    }
+
+    #pageContent .custom-item-box2 .image-section img {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 200px;
+        height: 150px;
+    }
+
+    #pageContent .custom-item-box2 .content-section p {
+        overflow: auto;
+        white-space: inherit;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #pageContent .custom-menu {
+        display: none !important;
+    }
+
+    #pageContent .file-info {
+        flex-direction: column;
+    }
+
+    #pageContent .file-info .data-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #halfDonutChart {
+        width: 100% !important;
+        position: relative;
+        transform: none !important;
+        left: 0;
+    }
+
+    #pageContent .breadcrumb {
+        display: flex;
+        align-items: center;
+    }
+
+    #pageContent .breadcrumb-item {
+        max-width: 100%;
+        white-space: normal;
+        overflow: auto;
+    }
+
+    .credit-section {
+        padding: 10% !important;
+        box-shadow: none !important;
+    }
+
+    .credit-section .left-credit-col {
+        display: none;
+    }
+
+    .container.manage-credit {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0 !important;
+    }
+
+    .manage-credit .header-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .manage-credit .back-btn {
+        margin-left: 0 !important;
+    }
+
+    .manage-credit .credit-section {
+        display: none !important;
+        padding: 0 !important;
+    }
+
+    .modal-content {
+        padding: 10px !important;
+    }
+
+    #pills-submenu {
+        background-color: #fff;
+        padding: 25px 40px;
+    }
+
+    .merchant-account-col {
+        margin-bottom: 20px;
+    }
+
+    .merchant-account-col .nav-link {
+        border-radius: 4px;
+        background-color: #fff;
+    }
+
+    .help-section .forgot-item {
+        margin-bottom: 20px;
+    }
+
+    .help-section .forgot-item.last {
+        margin-bottom: 0;
+    }
+
+    .social-item .action-box p {
+        width: 70%;
+    }
+
+    .no-data-section img {
+        width: 70% !important;
+    }
+
+    .login-box.forgot-box {
+        width: 30vw;
+    }
+
+    .web-co input {
+        width: 50% !important;
+    }
+
+    .web-co .web-co-link {
+        width: 50% !important;
+    }
+
+    .mobile-drag-scroll.first-content {
+        margin-top: 18%;
+    }
+
+    .home-statistic-col {
+        display: none;
+    }
+    .ref-box {
+        height: 55% !important;
+    }
+    
+    .ref-box img {
+        width: 50% !important;
+    }
+    .activity-list .list-item {
+        width: 100%;
+    }
+    
+    .activity-list .list-item {
+        width: 50%;
+    }
+    
+    .referral-account ul {
+        margin-bottom: 0 !important;
+    }
+    
+    .referral-account #pills-submenu {
+        padding: 25px 10px !important;   
+    }
+    
+    .referral-account ul li {
+        text-align: center;
+        margin-right: 10px !important;
+    }
+    
+    .referral-account #pills-submenu{
+        padding: 0 !important;  
+    }
+    
+    #pills-submenu .nav-link.active {
+        padding-right: 10px !important;
+        padding-left: 10px !important;   
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .no-data-section img {
+        width: 40% !important;
+    }
+
+    .notification-box .search-section {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .notification-box .search-form {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .login-box {
+        width: 100% !important;
+        padding: auto 10% 10% 10% !important;
+    }
+
+
+    .login-box .forgot-item {
+        margin-bottom: 30px;
+    }
+
+    .blob,
+    .blob2 {
+        display: none;
+    }
+
+    .login-box.forgot-box {
+        top: 30%;
+    }
+
+    .modal-dialog {
+        margin: 0 !important;
+    }
+
+    .modal-dialog .modal-content {
+        border-radius: 0 !important;
+        min-height: 100vh !important;
+    }
+
+    .mobile-drag-scroll.first-content {
+        margin-top: 26%;
+    }
+    .dashboard-view-list {
+        display: block;
+    }
+    
+    .dashboard-list {
+        width: auto !important;
+    }
+    
+    .activity-list .list-item {
+        width: 100%;
+    }
+    
+    .referrer-inline-table {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .referrer-inline-table .title{
+        width: 100%;
+    }
+    
+    .referrer-inline-table form {
+        width: 100%;
+        margin: 0 5px !important;
+    }
+    
+    .modal-dialog {
+        margin: 0 !important;
+    }
+    
+    .modal-content {
+        border-radius: 0 !important;
+        min-height: 100vh !important;
+    }
+    
+    .hamburger-btn {
+        margin-bottom: 0 !important;
+    }
+}

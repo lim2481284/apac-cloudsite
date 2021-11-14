@@ -1,0 +1,85 @@
+.nav-pills .nav-link{
+    font-size: var(--paragraph-font-size);
+    transition:0.4s all;
+}
+
+.nav-pills .active{
+    color: #fff;
+    background-color: var(--primary-theme-color) !important;
+    border-radius: 38px;
+}
+
+ul.nav-pills{
+    width: fit-content;
+    background: #ebeaf3;
+    border-radius: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-pills i{
+    padding-right: 5px;
+}
+
+
+.no-goal{
+    text-align:center;
+}
+.no-goal img{
+    max-width: 350px;
+}
+.no-goal p{
+    font-size: var(--paragraph-font-size);
+    opacity: 0.8;
+    max-width: 80%;
+    margin: auto;
+}
+.no-goal button{
+    margin-top: 25px;
+    border-radius: 35px;
+    box-shadow: 1px 3px 0px #844223;
+    padding: 7px 15px;
+}
+
+.no-goal h1{
+    font-size: var(--sub-header-font-size) !important;
+    font-weight: 800;
+}
+
+
+.badge-4{
+    background-color: #f12f2f;
+    color: white;
+}
+.badge-3{
+    background-color: #414141;
+    color: white;
+}
+.badge-2{
+    background-color: #5838e7;
+    color: white;
+}
+.badge-1{
+    background-color: #40e07e;
+    color: white;
+}
+.badge{
+    margin-bottom: 15px;
+}
+
+.grid-box-item b{
+    font-size: var(--paragraph-font-size);
+    font-weight: 600;
+}
+.grid-box-item b img{
+    width:20px;
+}
+.grid-box-item .img-section img{
+    height: 55%;
+}
+.grid-box-item{
+    height:450px;
+}
+.grid-box-item .img-section, .grid-box-item .content-section{
+    height:45%;
+}

@@ -1,0 +1,108 @@
+.introjs-helperLayer {
+    transition: all 0.5s ease-out;
+    border-radius: 6px;
+    box-shadow: rgba(33, 33, 33, 0.5) 0px 0px 0px 5000px !important;
+}
+
+.introjs-tooltip {
+    border-radius: 15px;
+    padding: 35px !important;
+    padding-bottom: 25px !important;
+    transition: opacity 0.3s ease-out;
+}
+
+.introjs-tooltip-header {
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.introjs-bullets {
+    display: none;
+}
+
+.introjs-progress {
+    height: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.introjs-progressbar {
+    background-color: var(--primary-theme-color);
+}
+.introjs-skipbutton {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 15px;
+    background: #f2f2f2;
+    border-radius: 100%;
+    line-height: 35px;
+    padding: 0;
+    color: #959595;
+    font-weight: 300;
+    right: 15px;
+}
+.introjs-tooltip-title {
+    font-weight: 600;
+    font-size: var(--header-font-size);
+    font-weight: 800;
+    letter-spacing: 0;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.introjs-tooltiptext {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px 15px 20px 15px;
+    letter-spacing: 0;
+}
+
+.introjs-button {
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.introjs-button:hover,
+.introjs-button:focus {
+    border: 0;
+}
+
+.introjs-button.introjs-prevbutton {
+    margin-right: 5px;
+    background-color: transparent;
+    color: var(--inactive-theme-color);
+    cursor: pointer;
+    font-size: var(--paragraph-font-size);
+}
+
+.introjs-button.introjs-prevbutton:hover {
+    color: var(--primary-theme-color);
+}
+
+.introjs-button.introjs-nextbutton {
+    padding: 8px 19px;
+    background-color: var(--primary-theme-color);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: var(--paragraph-font-size);
+}
+
+.introjs-skipbutton {
+    color: var(--inactive-theme-color);
+    cursor: pointer;
+}
+
+.introjs-tooltipbuttons {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 0;
+    padding: 10px 15px;
+    margin-top: 25px;
+}

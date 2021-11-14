@@ -1,0 +1,40 @@
+.permission-section .checkbox-section{
+    position: relative;
+    background: rgba(0,0,0,0.04);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+    padding-right: 90px;
+}
+
+.permission-section .custom-toggle{
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    right: 30px !important;
+}
+.permission-section fieldset{
+    background: transparent !important;
+}
+
+
+.badge-status-1{
+    background: #32c380;
+    color: #ffffff;
+    font-weight: 500;
+}
+.badge-status-3{
+    background: #ececec;
+    color: #767676;
+    font-weight: 500;
+}
+
+
+
+.grid-box-item:hover{
+    box-shadow: 2px 2px 30px #d8d8d8;
+}
+.grid-box-item:hover .img-section img{
+    transform:  scale(1.2);
+}

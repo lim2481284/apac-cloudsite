@@ -1,0 +1,100 @@
+.back-btn{
+    margin-right: 0 !important;
+}
+.form-content .title{
+    font-size: 18px;
+    font-weight: 700;
+}
+#revenueChart{            
+    height:300px !important;
+}
+.form-content .add-btn{
+    margin: auto !important;
+    float: right;
+}
+.summary{
+    text-align: center;
+}
+.summary p{
+    margin: 0;
+    margin-top: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+.summary h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.view-cashflow-btn{
+    float: right;
+}
+.cashflow-btn {
+    background: #1a10a7 !important;
+    border-radius: 100% !important;
+    width: 40px;
+    height: 40px;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: white !important;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    line-height: 10px;
+    margin: 0;
+    margin-bottom: 40px;
+    text-decoration: none !important;
+    outline: none !important;
+    transition: 0.4s all;
+    box-shadow: 1px 1px 10px #d2d1da !important;    
+}
+
+
+.flow-item{
+    background: rgba(0,0,0,0.05);
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-bottom:15px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.flow-item:hover{
+    transform:scale(1.03);
+}
+
+.flow-item h2{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px !important;
+}
+.flow-item .description{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.flow-item .badge{
+    font-size: 11px;
+    margin-bottom:10px;
+}
+.flow-item .amount-col{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.flow-item .amount{
+    font-size: 18px;
+    font-weight: 700;
+}
+.amount.green, .amount-1{
+    color: #15cf81;
+}
+.amount.red, .amount-2{
+    color: #d31b1b;
+}
+
+
+.create-btn{
+    margin-bottom: 0;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+}

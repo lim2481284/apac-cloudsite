@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 class IndexController extends Controller
 {
 
-    # Index page 
+    # Website homepage 
     public function index()
     {
         return view('pages.website.index');

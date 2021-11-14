@@ -1,28 +1,14 @@
-@extends("layout.layout")
+@extends('errors.layout')
 
-@section('head')
+@section('code', '429 😵')
+
+@section('title', 'Too Many Request')
+
+@section('image')
+
+<div style="background-image: url('/img/picture/429.png');" class="absolute pin  md:bg-left lg:bg-center">
+</div>
 
 @endsection
 
-@section('content')
-
-    <title>Warning 注意</title>
-
-    <article>
-        <h1>Action Too Frequent </h1>
-        <div>
-            <p>For the security purpose. Please try again later. </p>
-            <p>&mdash; The Unionpaycards Team</p>
-        </div>
-    </article>
-
-
-    <article>
-        <h1>行动太频繁</h1>
-        <div>
-            <p>出于系统安全考虑。 请稍后再试。 </p>
-            <p>&mdash; The Unionpaycards Team</p>
-        </div>
-    </article>
-
-@stop
+@section('message', 'Wow steady steady. Your action are too frequent, please try again later.')

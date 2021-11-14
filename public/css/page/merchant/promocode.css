@@ -1,0 +1,21 @@
+
+
+
+
+.badge-2{
+color: #fff;
+background-color: #343a40;
+}
+
+.badge-0{
+color: rgb(109, 109, 109);
+background-color: #dadada;
+}
+.badge-1{
+color: #fff;
+background-color: #1dcf76;
+}
+
+fieldset .toggle input+label{
+    margin-top: 0;
+}

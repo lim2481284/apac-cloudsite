@@ -1,0 +1,16 @@
+
+.grid-box-item:hover .img-section img{
+    transform: rotate(360deg) scale(1.08);
+}
+.badge-register{
+    background-color: #f7bf51;
+    color: white;
+}
+.badge-purchased{
+    background-color: #5838e7;
+    color: white;
+}
+.badge-visit{
+    background-color: #40e07e;
+    color: white;
+}

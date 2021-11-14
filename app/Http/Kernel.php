@@ -67,5 +67,8 @@ class Kernel extends HttpKernel
         'localeSessionRedirect'   => \Mcamara\LaravelLocalization\Middleware\LocaleSessionRedirect::class,
         'localeCookieRedirect'    => \Mcamara\LaravelLocalization\Middleware\LocaleCookieRedirect::class,
         'localeViewPath'          => \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationViewPath::class,
+        'merchant.permission' => \App\Http\Middleware\MerchantDashboardMiddleware::class,
+        'merchant.auth.validation' => \App\Http\Middleware\MerchantAuthMiddleware::class,
+        'ecommerce.auth.validation' => \App\Http\Middleware\EcommerceAuthMiddleware::class,
     ];
 }

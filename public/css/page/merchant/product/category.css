@@ -1,0 +1,47 @@
+.grid-box-item .img-section{
+    background-repeat: no-repeat !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 100%;
+}
+.grid-padding{
+    padding: 15px;
+}
+.grid-box-item{
+    height: 362px !important;
+    padding:0px ;
+}
+.footer-section fieldset{
+    background-color: transparent !important;
+}
+.grid-box-item .content-section{
+    position: relative;
+    padding-bottom: 50px;
+    height: 115px !important;
+}
+
+.grid-box-item .date{
+    right:15px;
+}
+
+.grid-box-item .footer-section{
+    background: rgba(0,0,0,0.04);
+    border-bottom-right-radius: 8px;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+}
+
+.footer-section p{
+    font-size: var(--small-font-size);
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+

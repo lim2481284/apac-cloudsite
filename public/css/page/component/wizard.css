@@ -1,0 +1,34 @@
+#wizardTable_wrapper{
+    width: 100%;
+    margin: 15px;
+}
+
+.wizard-container{
+    margin-top:10vh;
+}
+
+
+th{
+    cursor: grab;
+    padding-bottom: 25px !important;
+    color: black;
+}
+table img{
+    width: 30px !important;
+}
+
+td{
+    padding-bottom: 10px !important;
+}
+
+.form-control{
+    width:80%;
+}
+
+.btn-section{
+    margin-top:30px;
+}
+
+#templateRow{
+    display:none !important;
+}

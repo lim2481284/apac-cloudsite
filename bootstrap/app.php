@@ -60,9 +60,9 @@ $env = '.website.env';
 if (isset($_SERVER['HTTP_HOST'])) 
     $host = $_SERVER['HTTP_HOST'];
 
-# Dashboard Portal
-if (strpos($host, 'dashboard') !== false)
-    $env = '.dashboard.env';
+# Merchant Portal
+if (strpos($host, 'merchant') !== false)
+    $env = '.merchant.env';
 
 # Ecommerce Portal
 if (strpos($host, 'ecommerce') !== false)

@@ -1,0 +1,291 @@
+#fileManager {
+    z-index: 10000000;
+}
+
+#fileManager .modal-dialog {
+    width: 90vw;
+    max-width: 90vw;
+    height: 92vh;
+    max-height: 92vh;
+}
+
+#fileManager .modal-content {
+    height: 100% !important;
+    padding: 25px;
+    padding-bottom: 5px;
+}
+#fileManager .tab-content{
+    height: calc(90vh - 260px);
+    padding-bottom: 10px !important;      
+    padding-top:20px !important;  
+}
+#fileManager .modal .nav-link.active {
+    font-size: 13px;
+}
+#personalDeleteBtn{
+    display:none;
+}
+#storageRefresh{
+    display:none;
+}
+#fileManager .nav-pills .nav-link {
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+#fileManager .modal-content{
+    overflow:auto;
+}
+#fileManager .modal-footer{
+    height:70px;
+    justify-content: space-between;
+}
+
+#fileInfo p{
+    font-size: var(--paragraph-font-size);
+    margin: 0;
+    opacity: 0.6;
+}
+
+#fileManager .inpage-loader{
+    text-align: center;
+    margin-top: 50px;
+}
+#personalUploadForm .inpage-loader{
+    text-align: center;
+    margin-top: 50px;    
+}
+
+#pills-gif , #pills-personal{
+    max-height: 100%;
+    overflow:auto;
+}
+
+.top-file-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pills-personal{
+    padding-right:15px;
+}
+.right-file-section .search-bar{
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+.upload-btn{
+    border-radius: 100% !important;
+    width: 35px !important;
+    height: 35px !important;    
+    text-align: center;
+    padding: 7px !important;
+}
+#pills-preset .tab-content{
+
+}
+.file-hide{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    overflow:hidden;
+}
+.filemanager-searchbar {
+    background: #f0ecff;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.no-gif  {
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+.no-preset, .no-personal {
+    text-align: center;   
+    display: none;
+}
+
+.no-gif img, .no-preset img ,.no-personal img{
+    width:350px;
+}
+
+#pills-preset{
+    overflow:hidden !important;
+    max-height: 100%;
+}
+
+#pills-tabContent.preset{
+    overflow:hidden !important;
+}
+
+.gif-result {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 50px;
+}
+
+#fileManager #pills-preset .tab-content{
+    margin-top: 15px !important;
+    height: calc(50vh - 60px);
+    overflow:auto;
+    overflow-x: hidden;
+    
+}
+
+.personal-result{
+    padding-top:50px;
+}
+.personal-result img{
+    width: 100%;
+    max-height: 90%;
+}
+
+/* Create four equal gif-columns that sits next to each other */
+.gif-column {
+    -ms-flex: 20%;
+    /* IE10 */
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+    height: max-content;
+}
+
+.gif-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two gif-column-layout instead of four gif-columns */
+@media screen and (max-width: 800px) {
+    .gif-column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two gif-columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .gif-column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px){
+
+    .tox-fullscreen {        
+        margin: 1.75rem;
+    }
+    
+}
+
+.preset-result img{
+    width:100%;
+    padding:15px;
+}
+
+
+
+#pills-preset .nav-link{
+    background: transparent !important;
+    padding-left: 0 !important;
+    opacity: 0.5 !important;
+    padding-top:0 !important;
+    padding-bottom:15px !important;
+}
+#pills-preset .nav-link.active{
+    color: #7852ff !important;
+    font-weight: 700 !important;
+    opacity: 1 !important;
+    text-decoration: underline !important;
+}
+
+
+#fileManager .tab-content img{
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+
+
+#fileManager img.selected{
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    opacity: 1 !important;
+}
+
+#fileManager .gif-column img.selected{
+
+    box-shadow: 2px 2px 25px rgb(106 106 106 / 55%) !important;
+    border: 4px solid #e1e1e1 !important;
+}
+
+.personal-file-content, #fileManager #pills-tab, #fileManager .modal-title, #fileManager #pills-gif, #fileManager #pills-preset, #fileManager #pills-personal, #fileManager #v-pills-tabContent {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#fileManager .modal-title small{
+    display: block;
+    font-size: var(--small-font-size);
+    opacity: 0.5;
+}
+
+#fileManager .personal-img-box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    padding:5%;
+    height: auto;
+}
+#fileManager .personal-img-box{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.preset-result:hover img{
+    opacity: 0.4;
+
+}
+#fileManager #v-pills-tabContent img:hover{
+    transform:scale(1.08);
+    opacity: 1;
+}
+
+#pills-gif img:hover{
+    transform: scale(1.04);
+    border-radius: 15px;
+    opacity: 1 !important;
+}
+
+.gif-result:hover  img{
+    opacity: 0.7;
+}
+
+
+#fileManager .modal-header{
+    padding-top: 0;
+}
+
+
+.personal-result:hover img{
+    opacity: 0.7;
+}
+.personal-result img:hover{
+    transform: scale(1.04);
+    border-radius: 15px;
+    opacity: 1 !important;
+}
+
