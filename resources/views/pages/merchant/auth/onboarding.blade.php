@@ -147,6 +147,5 @@
 {!! Form::close() !!}
 
 @include('script.merchant.onboarding')
-@include('script.merchant.system.general.index')
 
 @endsection

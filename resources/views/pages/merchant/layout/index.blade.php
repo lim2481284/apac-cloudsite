@@ -9,7 +9,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <meta name="app-url" content="{{env('APP_URL')}}" />
     <meta name="robots" content="index,follow" />
-    <meta name="author" content="Cloudsite, support@cloudsite.com.my">
     <link rel="shortcut icon" href="/img/logo/logo.ico" />
 
     <link href="/css/prod/component/index_preload.css{{ config('app.link_version') }}" type="text/css" rel="stylesheet"/>

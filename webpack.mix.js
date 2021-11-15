@@ -44,23 +44,6 @@ mix.styles(
     "public/css/prod/merchant/onboarding.min.css"
 );
 
-mix.styles(
-    [
-        "public/css/plugin/slimselect.min.css",
-        "public/css/page/merchant/general.css",
-        "public/css/page/component/form.css",
-        "public/css/page/component/modal.css"
-    ],
-    "public/css/prod/merchant/general.min.css"
-);
-
-mix.styles(
-    [      
-        "public/css/plugin/multiselect.min.css",
-        "public/css/page/merchant/product/index.css"
-    ],
-    "public/css/prod/merchant/product.min.css"
-);
 
 mix.styles(
     [
@@ -104,22 +87,6 @@ mix.scripts(
         "public/js/page/index.js"
     ],
     "public/js/prod/merchant/index.js"
-);
-
-mix.scripts(
-    [
-        "public/js/page/component/table.js",
-        "public/js/plugin/flatpickr.min.js",
-        "public/js/page/component/productFilemanager.js",
-        "public/js/plugin/uploadBox.js",
-        "public/js/page/component/filemanager.js",
-        "public/js/plugin/productUploadBox.js",
-        "public/js/plugin/jquery-tagsinput.min.js",
-        "public/js/plugin/multiselect.min.js",
-        "public/js/plugin/tinymce.min.js",
-        "public/js/page/component/tinymce.js"
-    ],
-    "public/js/prod/merchant/product.min.js"
 );
 
 mix.scripts(
@@ -199,19 +166,6 @@ mix.styles(
     "public/css/prod/ecommerce/cms.min.css"
 );
 
-mix.styles(
-    [
-        "public/css/plugin/slick.css",
-        "public/css/plugin/likely.min.css",
-        "public/css/plugin/slick-theme.css",
-        "public/css/plugin/lightslider.min.css",
-        "public/css/plugin/lightgallery.min.css",
-        "public/css/plugin/jquery-tagsinput.min.css",
-        "public/css/page/ecommerce/theme/cloudsite/product.css"
-    ],
-    "public/css/prod/ecommerce/theme/cloudsite/product.min.css"
-);
-
 
 mix.scripts(
     [
@@ -233,19 +187,6 @@ mix.scripts(
     "public/js/prod/ecommerce/cms.min.js"
 );
 
-mix.scripts(
-    [
-        "public/js/plugin/slick.min.js",
-        "public/js/plugin/likely.min.js",
-        "public/js/plugin/tinymce.min.js",
-        "public/js/plugin/lightslider.min.js",
-        "public/js/plugin/lightgallery.min.js",
-        "public/js/page/component/tinymce.js"
-    ],
-    "public/js/prod/ecommerce/theme/cloudsite/product.min.js"
-);
-
-
 
 /*****************************************************
 
@@ -257,7 +198,6 @@ mix.styles(
     [
         "public/css/page/component/modal.css",
         "public/css/plugin/uploadBox.css",
-        "public/css/page/component/filemanager.css",
         "public/css/plugin/flatpickr.min.css",
         "public/css/page/component/table.css"
     ],
@@ -269,7 +209,6 @@ mix.scripts(
         "public/js/page/component/table.js",
         "public/js/plugin/flatpickr.min.js",
         "public/js/plugin/uploadBox.js",
-        "public/js/page/component/filemanager.js"
     ],
     "public/js/prod/component/table.js"
 );
@@ -314,9 +253,4 @@ mix.styles(
         "public/css/plugin/fontawesome/fontawesome.css"
     ],
     "public/css/prod/component/index_preload.css"
-);
-
-mix.scripts(
-    ["public/js/plugin/tinymce.min.js", "public/js/page/component/tinymce.js"],
-    "public/js/prod/component/tinymce.min.js"
 );

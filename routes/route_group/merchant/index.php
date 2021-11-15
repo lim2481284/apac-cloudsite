@@ -19,7 +19,7 @@ Route::group(['namespace' => 'Merchant'], function () {
         Route::group(['middleware' => ['merchant.permission']], function () {
 
             # Dashboard Page
-            Route::get('/', ['as' => 'dashboard', 'uses' => 'IndexController@index']);
+            Route::get('/', ['as' => 'dashboard' , 'guide' => 'db', 'uses' => 'IndexController@index']);
 
             # Account route 
             require base_path('routes/route_group/merchant/account.php');

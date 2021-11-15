@@ -2,7 +2,7 @@
 
 
     # Promotion route 
-    Route::group(['prefix' => 'promotion' ,'access'=>'pmt' , 'as' => 'promotion.', 'namespace' => 'Promotion'], function () {
+    Route::group(['prefix' => 'promotion'  , 'as' => 'promotion.', 'namespace' => 'Promotion'], function () {
 
         Route::get('/', ['as' => 'index', 'uses' => 'IndexController@index']);
 

@@ -3,6 +3,8 @@
 @if($tourKey = isset(\Request::route()->getAction()['guide']) ? \Request::route()->getAction()[
     'guide'] : null)
 
+    
+
 // Get tour item 
 if ($(".tour-{{$tourKey}}").length) {
     
@@ -22,9 +24,9 @@ if ($(".tour-{{$tourKey}}").length) {
     var introSetting = {
         showBullets: false,
         steps: tourPage,
-        nextLabel: "{{translate('next','Next')}}",
-        prevLabel: "{{translate('prev','Prev')}}",
-        doneLabel: "{{translate('done','Done')}}",
+        nextLabel: "Next",
+        prevLabel: "Prev",
+        doneLabel: "Done",
         showProgress: true,
     };
     

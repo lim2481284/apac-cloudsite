@@ -13,6 +13,16 @@
             cursorborder: 'none',
             cursorborderradius: '0px',
         });
+        
+        //for general store idt selection plugins
+        if ($("#idt").length) {
+            let slim = new SlimSelect({
+                select: '#idt',
+                limit: 10,
+                onChange: (info) => {
+                }
+            })
+        }
 
 
         // On pick template 
@@ -23,7 +33,6 @@
                 underDevelopment('Website Template', 'Merchants can choose different website templates to start their website page construction.')
 
         })
-
 
 
 
@@ -54,6 +63,17 @@
         $(document).on('click', '.startup-prev', function() {
             slickPrev();
         })
+
+
+        //Check domain availability
+        $(document).on('keyup', '.domainInput', delay(function() {
+            showLoader();
+            $('.domainExist').removeAttr('style').html('');
+            if ($(this).val())
+                checkDomain($(this).val());
+            else 
+                hideLoader();
+        }, 300));
 
         // Bind key - key press handling 
         document.onkeydown = function(e) {
@@ -232,5 +252,28 @@
         return check;
     }
 
+
+    //Check domain availability ajax
+    function checkDomain(val) {
+        $.ajax({
+            url: '/domain/check',
+            type: 'POST',
+            data: {
+                _token: CSRF_TOKEN,
+                domain: val
+            },
+            dataType: 'JSON',
+            success: function(data) {
+                $('.domainExist')
+                    .attr('style', (data.available) ? 'color:green;' : 'color:red;')
+                    .attr('data-availability', data.available)
+                    .html(data.message);
+                hideLoader();
+            },
+            error: function(){
+                hideLoader();
+            }
+        });
+    }
 
 </script>
