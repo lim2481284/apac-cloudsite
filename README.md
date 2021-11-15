@@ -82,8 +82,8 @@ Single profit model from sales? Cloudsite converts online store traffic into add
 | Platform | URL |
 | ------ | ------ |
 | Landing Page | http://cloudsite-app-lim2481284-stage.apps.sandbox.x8i5.p1.openshiftapps.com/ |
-| Merchant Dashboard |  http://merchant-lim2481284-stage.apps.sandbox.x8i5.p1.openshiftapps.com/ |
-| Ecommerce Store | http://ecommerce-lim2481284-stage.apps.sandbox.x8i5.p1.openshiftapps.com/<merchant_store_domain> |
+| Merchant Dashboard ( You can register your own account ) |  http://merchant-lim2481284-stage.apps.sandbox.x8i5.p1.openshiftapps.com/ |
+| Ecommerce Store  | http://ecommerce-lim2481284-stage.apps.sandbox.x8i5.p1.openshiftapps.com/<merchant_store_domain> |
 
 
 
