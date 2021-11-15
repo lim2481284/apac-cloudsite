@@ -16,14 +16,9 @@
     <link href="/css/prod/merchant/index.css{{ config('app.link_version') }}" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="/js/prod/component/index_preload.js{{ config('app.link_version') }}"></script>
     <script type="text/javascript" src="/js/prod/merchant/index.js{{ config('app.link_version') }}"></script>
-
-    @if(Auth::check() && (Auth::user()->getMeta('theme') == 'dark'))
-    <link href="/css/page/merchant/dark.css{{ config('app.link_version') }}" type="text/css" rel="stylesheet" />
-    @endif
     
     @yield('head')
     
-    @laravelPWA
 
 </head>
 
@@ -32,52 +27,34 @@
     <!--Loader section -->
     @include('component.loader')
 
-    <div class='tour-db tour-mobile-db' data-index='0' data-mobile-index='0' data-intro-title="{{translate('tour_welcome_title')}}" data-intro="{{translate('tour_welcome_desc')}}"></div>
-
-    <!-- Nav & Content -->
-    <div class="overall-layout">
-
-    @include('pages.merchant.layout.slidePane')
+    <div class='tour-db tour-mobile-db' data-index='0' data-mobile-index='0' data-intro-title="Welcome!" data-intro="Click next to start the Dashboard tour guide."></div>
     
+    <!-- Nav & Content -->
     <div class="wrapper d-flex flex-column align-items-stretch">
 
         @include('pages.merchant.layout.side_menu')
 
-        <div class="top-panel">
-
-            <a class="hamburger-btn" href="#">
-                <img id="hamburger-trigger-bar" class="tour-db tour-mobile-db" data-element data-mobile-index='2' 
-                data-intro="{{translate('tour_mobile_hamburger_btn')}}" src="/img/icon/align_menu.png" />
-            </a>
-
-
-        </div>
+        <a class="hamburger-btn" href="#"><i id="hamburger-trigger-bar" class="fa fa-bars tour-db tour-mobile-db" data-element data-mobile-index='2' 
+            data-intro="Click here to navigate to other sections." ></i></a>
 
         <!-- Page Content  -->
         <div id="pageContent">
 
             @include('pages.merchant.layout.top_nav')
 
-            <div class="content-layout">
             @yield('content')
-            </div>
 
-            @include('pages.merchant.layout.bottom_nav')
-
-            @include('pages.merchant.layout.tool')
             
+            @include('pages.merchant.layout.tool')
+
         </div>
         
     </div>
 
-    </div>
-
 </body>
-
-@include('modal.action')
 
 @include('script.index')
 @include('script.merchant.index')
-@include('script.merchant.native_mobile')
+@include('modal.coming')
 
 </html>

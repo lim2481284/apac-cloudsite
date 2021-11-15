@@ -9,12 +9,14 @@
             <div class="modal-body">            
                 <div class='text-center'>
                     <img src='/img/picture/coming_soon.png'/>
-                    <h3> {{translate('coming_soon','Coming Soon')}} </h3>
-                    <p> {{translate('coming_soon_text','Thank you for your attention, this feature is under development and will be launched soon!')}} </p>
+                    <h3 id="comingTitle">  </h3>
+                    <p id="comingDesc">  </p>
+
+                    <small class=""> - Under Development - </small>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">{{translate('aye','Aye')}}</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aye</button>
             </div>
         </div>
     </div>

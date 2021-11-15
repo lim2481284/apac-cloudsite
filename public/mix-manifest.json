@@ -1,7 +1,7 @@
 {
     "/css/prod/merchant/index.css": "/css/prod/merchant/index.css",
     "/css/prod/merchant/report.css": "/css/prod/merchant/report.css",
-    "/css/prod/merchant/startup.min.css": "/css/prod/merchant/startup.min.css",
+    "/css/prod/merchant/onboarding.min.css": "/css/prod/merchant/onboarding.min.css",
     "/css/prod/merchant/general.min.css": "/css/prod/merchant/general.min.css",
     "/css/prod/merchant/product.min.css": "/css/prod/merchant/product.min.css",
     "/css/prod/merchant/cms.min.css": "/css/prod/merchant/cms.min.css",

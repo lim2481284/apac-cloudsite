@@ -117,22 +117,14 @@ $(document).ready(function(){
         e.stopPropagation();
     })
 
-    
     // Update default language on change 
-    $(".language-select").change(function() {
-        showLoader();
-        $.ajax({
-            url: "/{{isset($lang)?$lang:'en'}}/language/change",
-            type: "POST",
-            data: {
-                _token: CSRF_TOKEN,
-                language: $(this).val()
-            },
-            dataType: "JSON",
-            success: function(data) {
-                location.href = $(this).val();
-            }
-        });
+    $(document).on('change',".language-select", function() {
+        underDevelopment("Localization", "This function will change the system language according to the user's choice.");
+    });
+
+    // Under development message handling 
+    $(document).on('click',".under-development", function() {
+        underDevelopment($(this).data('title'), $(this).data('desc'));
     });
 
     // Modal next tab &  validation handling 
@@ -369,6 +361,13 @@ function setEqualHeight(){
     }
 }
  
+
+ // Function for under development modal notice
+ function underDevelopment(title, description){
+     $("#comingTitle").html(title);
+     $("#comingDesc").html(description);
+     $("#comingSoonModal").modal('show');
+ }
 
 
 

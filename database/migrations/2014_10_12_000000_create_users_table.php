@@ -13,15 +13,33 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+
+            # Basic Column
+            $table->bigIncrements('id');
+            $table->string('name')->nullable();                               
+            $table->string('password')->nullable();                   
+            $table->string('email');  
+            $table->unsignedInteger('role_id');              
+            $table->decimal('point')->default(0);
+            $table->unsignedInteger('merchant_id')->nullable();              
+            $table->unsignedInteger('status')->default(getConfig('user.status.active'));
+            $table->text('meta')->nullable(); 
+
+            # Security Column
+            $table->string('uid')->unique(); 
+            $table->softDeletes();
             $table->timestamps();
+                
+            # Relationship Configuration
+            $table->foreign('merchant_id')
+                ->references('id')->on('merchant')
+                ->onDelete('RESTRICT');
         });
+
+        Schema::enableForeignKeyConstraints();
+
     }
 
     /**

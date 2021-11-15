@@ -219,10 +219,6 @@ body {
     min-height: 550px;
 }
 
-.login-box.register {
-    width: 65vw;
-    min-width: 900px;
-}
 
 .forgot-box {
     position: absolute;

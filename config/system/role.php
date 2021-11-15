@@ -3,6 +3,7 @@
     return [
 
         'merchant_admin' => 1,    
-        'user' => 2,
+        'merchant_staff' => 2,
+        'user' => 3,
 
     ];

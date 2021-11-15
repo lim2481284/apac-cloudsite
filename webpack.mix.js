@@ -39,9 +39,9 @@ mix.styles(
     [
         "public/css/plugin/slick.css",
         "public/css/plugin/slick-theme.css",
-        "public/css/page/merchant/startup.css"
+        "public/css/page/merchant/onboarding.css"
     ],
-    "public/css/prod/merchant/startup.min.css"
+    "public/css/prod/merchant/onboarding.min.css"
 );
 
 mix.styles(

@@ -3,6 +3,15 @@ body{
     min-height: 100vh;
 }
 
+.vector-section{
+    margin: auto;
+    text-align: right;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: inherit;
+    margin-right: 0;
+}
 
 
 @media screen and (max-width: 992px) {

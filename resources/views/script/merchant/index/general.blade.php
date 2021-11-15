@@ -1,20 +1,3 @@
-// Hide is edit action if not editor 
-@if(isset($isEditor) && !$isEditor)
-    $('.editor-action').remove();
-@endif
-
-
-// On click share store button 
-$(document).on('click', '.share-store-btn', function() {
-    $('#shareStoreModal .likely').attr('data-url', $("#shareStoreURL").val()) ;
-    $('#shareStoreModal .likely').attr('data-title', "{{getMerchant()->name}}") ;
-    likely.initiate();
-})
-
-// On click copy button 
-$(document).on('click', '.copy-btn', function() {
-    copyClipboard($(this).data('target'));
-})
 
 
 //Nicescroll 

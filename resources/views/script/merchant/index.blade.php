@@ -11,11 +11,11 @@ $(document).ready(function() {
         //General Setting
         @include('script.merchant.index.general')
 
-        //Tool Setting
-        @include('script.merchant.index.tool')
-
         // Tour setting
         @include('script.merchant.index.tour')    
+
+        // Tool setting
+        @include('script.merchant.index.tool')    
 
     @endif
 

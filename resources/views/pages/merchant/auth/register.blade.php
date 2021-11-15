@@ -20,7 +20,7 @@
         </div>
         {{ Form::select('def_lang', getSupportedLocalesNative(), LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale() , null, [], true) , ['class' => 'form-control language-select']) }}
     </div>
-    <div class='col-md-6 col-12'>
+    <div class='col-md-6 col-12 d-flex'>
         <div class='vector-section'>
             <img src='/img/picture/register_bg.png' />
         </div>
@@ -45,7 +45,7 @@
                     </div>
                     <div class='col-12'>
                         <div class="email">
-                            <label class="logintxt required">Email Address}</label>
+                            <label class="logintxt required">Email Address</label>
                             <input name="email" class="form-control" value="{{old('email')}}" type="email" maxlength='30' placeholder="Please insert your email address" required />
                         </div>
                     </div>

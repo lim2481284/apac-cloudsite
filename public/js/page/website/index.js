@@ -288,7 +288,7 @@ class AnimatedImage extends Object3D {
     });
     img.map.needsUpdate = true; 
     // plane
-    var plane = new THREE.Mesh(new THREE.PlaneGeometry(1, 0.73),img);
+    var plane = new THREE.Mesh(new THREE.PlaneGeometry(0.9, 0.67),img);
     plane.overdraw = true;
     this.add(plane);
 

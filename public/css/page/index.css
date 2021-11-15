@@ -1476,6 +1476,9 @@ iframe.scrolling {
 #comingSoonModal .modal-footer{
     justify-content: center;
 }
+#comingSoonModal small{
+    opacity: 0.5;
+}
 
 .web-co {
     display: flex;

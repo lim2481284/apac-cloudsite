@@ -20,20 +20,15 @@ Route::group(['namespace' => 'Auth'], function () {
         });
 
     
-        # Startup Route
-        Route::group(['prefix' => 'startup', 'as' => 'startup.', 'validation'=>'startup'], function () {
-            Route::get('/',['as' => 'index', 'uses' => 'StartupController@index']);
-            Route::post('/', ['as' => 'submit', 'uses' => 'StartupController@submit']);
+        # Onboarding Route
+        Route::group(['prefix' => 'onboarding', 'as' => 'onboarding.', 'validation'=>'onboarding'], function () {
+            Route::get('/',['as' => 'index', 'uses' => 'OnboardingController@index']);
+            Route::post('/', ['as' => 'submit', 'uses' => 'OnboardingController@submit']);
           
         });
 
 
-        # Forgot password
-        Route::group(['prefix' => 'forgot/{method?}', 'as' => 'forgot.', 'validation'=>'forgot'], function () {
-            Route::get('/', ['as' => 'index', 'uses' => 'ForgotPasswordController@index']);
-
-            # TODO : Forgot password function & Reset password handling
-        });
+        # TODO : Forgot password function & Reset password handling 
 
     });           
 

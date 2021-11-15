@@ -622,7 +622,7 @@ Tools
 
 .tool-list.active {
     width: 250px;
-    height: 450px;
+    height: 325px;
     opacity: 1;
     visibility: visible;
     border-bottom-right-radius: 35px;
@@ -1371,4 +1371,181 @@ body{
 
 .wrapper {
     width: 100%;
+}
+
+#progress-parent {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.onboarding-info-section{
+    padding-right: 30px;
+}
+
+.onboarding-info {
+    padding-top: 25px;
+}
+.onboarding-progress{
+    margin-top: 25px;
+    text-align: right;
+    
+}
+
+.task-text {
+    font-weight: 800;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+#closeOnboarding{
+    font-size: var(--small-font-size);
+    opacity: 0.4;
+    text-decoration: underline;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.arrow-section{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.custom-progressbar{
+    width: 100%;
+}
+ .onboarding-progress .custom-progressbar-text {
+display: none;
+}
+
+
+.onboarding-box #carouselWithCard {
+    width: 100%;
+}
+
+.onboarding-box .slick-dots {
+    display: none !important;
+}
+
+.onboarding-row {
+    width: 100%;
+}
+
+.onboarding-col.completed {
+    opacity: 0.5;
+}
+
+.onboarding-title {
+    color: var(--primary-theme-color);
+    font-weight: 800;
+    font-size: var(--sub-header-font-size);
+    margin-bottom: 8px;
+}
+
+.onboarding-descp {
+    font-weight: 300 !important;
+    font-size: var(--paragraph-font-size);
+}
+
+.onboarding-box .onboarding-col .card-header {
+    padding: 0.15rem 1.25rem !important;
+}
+
+.onboarding-box .onboarding-col .card-body img {
+    height: 150px;
+    object-fit: contain;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.onboarding-box .onboarding-col .card-title {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.onboarding-box .onboarding-col .card-text {
+    font-size: var(--paragraph-font-size);
+    font-weight: 300;
+}
+
+.onboarding-box .card-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.onboarding-box .card-form button {
+    padding: 8px 20px !important;
+    font-size: var(--small-font-size);
+}
+
+.onboarding-btn-section {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    #progress-parent {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .onboarding-box.info {
+        flex-direction: column;
+    }
+
+    .onboarding-box .onboarding-title {
+        margin-bottom: 10px;
+    }
+
+    .onboarding-box .onboarding-info {
+        margin-bottom: 20px;
+    }
+
+    .onboarding-box.info .onboarding-progress {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .onboarding-btn-section {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 575px) {
+}
+
+
+#progress-parent .all-card-content .card-header{
+    background: rgb(75,173,255);
+    background: linear-gradient(90deg, rgba(75,173,255,1) 0%, rgba(119,70,255,1) 100%, rgba(75,18,199,1) 100%);
+}
+
+#progress-parent .completed .all-card-content .card-header{
+    background: rgb(120,255,147);
+    background: linear-gradient(90deg, rgba(120,255,147,1) 0%, rgba(65,255,116,1) 100%);
+}
+
+.card-header .icon{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    font-size: var(--paragraph-font-size);
+    line-height: 33px;
+    font-weight: 800;
+    background: rgb(75,173,255);
+    background: linear-gradient(90deg, rgba(75,173,255,1) 0%, rgba(119,70,255,1) 100%, rgba(75,18,199,1) 100%);
+}
+
+.completed .card-header .icon{
+    background: rgb(120,255,147);
+    background: linear-gradient(90deg, rgb(54, 190, 81) 0%, rgbrgb(0, 133, 35)0%);
 }

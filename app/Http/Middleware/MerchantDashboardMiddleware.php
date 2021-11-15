@@ -25,7 +25,7 @@ class MerchantDashboardMiddleware
             $user = Auth::user();
             $routeAction = $request->route()->getAction();
             if($user->checkRole('merchant_admin') && !getMerchant())
-                return redirect(route('startup.index'));
+                return redirect(route('onboarding.index'));
 
             # 2 : Get data  -  Check all route permission    
             $tourKey =  isset($routeAction['guide'])?$routeAction['guide']:null;

@@ -34,5 +34,6 @@
 
 @include('script.index')
 @include('script.merchant.index')
+@include('modal.coming')
 
 </html>

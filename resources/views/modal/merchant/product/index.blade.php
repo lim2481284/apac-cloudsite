@@ -228,7 +228,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">{{translate('cancel','cancel')}}</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 <button class="btn btn-primary-light submit-btn edit-show create-show">{{translate('create','Create')}}</button>
             </div>
             {!! Form::close() !!}

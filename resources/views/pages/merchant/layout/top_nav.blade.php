@@ -7,47 +7,25 @@
         <div class='topnav-button'>
             <div class='top-notification-section'>
 
-                <div id="change-lang-bar" class="tour-db top-nav-lang" data-element data-index='2' data-intro="{{translate('tour_topnav_lang_switcher')}}">
+                <div id="change-lang-bar" class="tour-db top-nav-lang" data-element data-index='2' data-intro="You can switch the system language here.">
                     {{ Form::select('def_lang', getSupportedLocalesNative(), LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale() , null, [], true) , ['class' => 'form-control language-select']) }}
                 </div>
 
-                @php($notification = \App\Models\Notification::systemNotification('get'))
+                <a href='/account/credit' class='mobile-hide'><button class='btn btn-link tour-db point-icon' id="pointIcon" data-element data-index='3' data-intro="This is the amount of Cloudsite merchant credit you have."><span>500</span><img src='/img/icon/coin.png' /></button></a>
 
-                <a href='/account/credit' class='mobile-hide'><button class='btn btn-link tour-db point-icon' id="pointIcon" data-element data-index='3' data-intro="{{translate('tour_topnav_credit_operation')}}"><span>{{getMerchantCredit()}}</span><img src='/img/icon/coin.png' /></button></a>
-
-                <button class='btn btn-link {{($notification->count()>0)?"bell-shake-animation":""}}' id="topNotification"><img id="check-notification-bar" class="tour-db" data-element data-index='4'  data-intro="{{translate('tour_topnav_notification_list')}}" src='/img/icon/notification.png' /> <span>{{$notification->count()>99?99:$notification->count()}}</span></button>
+                <button class='btn btn-link' id="topNotification"><img id="check-notification-bar" class="tour-db" data-element data-index='4'  data-intro="Click here to check your website notifications." src='/img/icon/notification.png' /> <span>0</span></button>
 
                 <!-- Notification Box -->
                 <div class="top-notification-wrap">
                     <div class="top-notification popup-ani">
                         <div class='notification-content-box'>
-                            <h1>{{translate('notification','Notification')}}.</h1>
-                            <p>{{translate('you_have','You have')}} {{$notification->count()}}
-                                {{translate('unread_notification','unread notification')}} </p>
-                            <button type="button" class="btn close-notification-btn mobile-show" data-dismiss="modal"><i
-                                    class='ti-close'></i></button>
+                            <h1>Notification.</h1>
+                            <p>You have 0 unread notification </p>
                             <div class='notification-list'>
-                                @php($loopCount = 0)
-                                @foreach($notification as $item)
-                                @if($loopCount < 5 ) <a data-href='{{($item->getMeta("url"))??"/social/notification"}}'
-                                    class='unread-notification' data-uid="{{$item->uid}}">
-                                    <div class='notification-item'>
-                                        <div class='background-image-section'
-                                            style="background: url('{{($item->getMeta("icon"))??"/img/icon/info.png"}}')">
-                                        </div>
-                                        <div class='notification-content'>
-                                            <h1>{{$item->title}}</h1>
-                                            <p>{{$item->description}}</p>
-                                        </div>
-                                    </div>
-                                    </a>
-                                    @php($loopCount++)
-                                    @endif
-                                    @endforeach
                             </div>
                             <div class='notification-footer'>
-                                <a href='/account/notification'><button class='btn btn-primary-light rounded'>
-                                        {{translate('view_all','View All')}} </button></a>
+                                <a href='#' class='under-development view-notification' data-title="Dashboard Notification" data-desc="This function is to notify merchants of all important notifications in real time."><button class='btn btn-primary-light rounded'>
+                                View All</button></a>
                             </div>
                         </div>
                     </div>
@@ -57,35 +35,31 @@
                 <!-- Profile Icon -->
                 <button class='btn btn-link' id="topProfileIcon">
                     <img id="check-profile-bar" class="tour-db" data-element data-index='5'
-            data-intro="{{translate('tour_topnav_profile_dropdown')}}" src='/img/icon/profile.png' />
+            data-intro="You can manage your profile or access to account settings here." src='/img/icon/profile.png' />
                 </button>
                 <div class='topnav-profile'>
                     <div class='profile-topsection'>
                     </div>
                     <div class='profile-item'>
-                        <a href='/account'>
+                        <a href='#'  class='under-development' data-title='Account' data-desc='This feature allows merchants to set multi-factor authentication settings for security purposes, change account preferences and manage their account details'>
                             <i class='ti ti-user'></i>
-                            {{translate('my_account','My Account')}}
+                            My Account
                         </a>
                         <a href='/account/credit'>
                             <i class='ti ti-money'></i>
-                            {{translate('my_credit','My Credit')}}
+                            My Credit
                         </a>
-                        <a href='#feedback' class='feedback-btn mobile' data-toggle="modal" data-target="#feedbackModal">
-                            <i class='ti ti-face-smile'></i>
-                            {{translate('feedback','Feedback')}}
-                        </a>
-                        <a href='https://partner.cloudsite.com.my'>
+                        <a href='#partner' class='under-development' data-title='Partnership' data-desc='This feature allows merchants to become part of the Cloudsite community. It acts like a "Master Merchant" inviting merchants, and can earn permanent commissions from the successful transactions of registered merchants.'>
                             <i class='ti ti-game'></i>
-                            {{translate('partership_','Partnership')}}
+                            Partnership
                         </a>
-                        <a href='/help'>
+                        <a href='#help' class='under-development' data-title='Help' data-desc='This feature will explain system functions to merchants and allow merchants to seek help for problems encountered '>
                             <i class='ti ti-help-alt'></i>
-                            {{translate('help','Help')}}
+                            Help
                         </a>
                         <a href='/logout'>
                             <i class='ti ti-control-skip-backward'></i>
-                            {{translate('logout','Logout')}}
+                            Logout
                         </a>
                     </div>
                 </div>

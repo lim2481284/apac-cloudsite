@@ -7,7 +7,7 @@ Route::group(['namespace' => 'Merchant'], function () {
     require base_path('routes/route_group/merchant/auth.php');
 
     # Domain Check Route
-    Route::post('/domain/check', ['as' => 'domain.check', 'uses' => 'Auth\StartupController@domainAvailability', 'middleware' => ['throttle:25,1']]);
+    Route::post('/domain/check', ['as' => 'domain.check', 'uses' => 'Auth\OnboardingController@domainAvailability', 'middleware' => ['throttle:25,1']]);
 
     # Authenticated Route 
     Route::group(['middleware' => ['auth']], function () {

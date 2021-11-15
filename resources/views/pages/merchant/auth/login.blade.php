@@ -40,7 +40,10 @@
                             <input name="password" class="form-control" type="password" placeholder="Please insert your password" required />
                         </div>
                     </div>
-                    <div class="signinbtn">
+                    <div class="row">
+                        <a href='#' class='btn btn-link forgot-link'>Forget Password?</a>       
+                    </div>
+                    <div class="signinbtn mt-4">
                         <button type="submit" class="btn btn-submit btn-primary">Login</button>                  
                     </div>
                     <a href='/register' class='btn btn-link'>Dont have account yet ? Register now</a>

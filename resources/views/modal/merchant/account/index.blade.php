@@ -93,8 +93,8 @@
                 </div>
             </div>
             <div class="modal-footer">               
-                <button type="button" class="btn btn-default" data-dismiss="modal">{{translate('cancel','cancel')}}</button>
-                <button class="btn btn-primary profile-action-btn" data-action='update' >{{translate('update','Update')}}</button>                           
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary profile-action-btn" data-action='update' >Update</button>                           
             </div>
             {!! Form::close() !!}
         </div>
