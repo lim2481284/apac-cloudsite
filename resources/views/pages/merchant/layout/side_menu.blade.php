@@ -32,7 +32,7 @@
                 </a>
             </li>
 
-            <li class="{{isNavActive(['customer.index'])?'active':''}}">
+            <li class="{{isNavActive(['customer.*'])?'active':''}}">
                 <a href='/customer'>
                     <i class="menu-icon ti-id-badge">
                         <div>
@@ -64,7 +64,7 @@
             </li>
 
             <li class="{{isNavActive(['analysis.*'])?'active':''}}">
-                <a href='/promotion'>
+                <a href='/analysis'>
                     <i class="menu-icon ti-bar-chart">
                         <div>
                             <span> Analaysis </span>

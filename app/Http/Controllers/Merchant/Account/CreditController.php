@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers\Merchant\Account;
 
-use DB;
-use App\Models\Transaction;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

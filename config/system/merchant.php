@@ -99,7 +99,7 @@ return [
         14 => 'Hobby & Collectibles',
         15 => 'Baby & Toys',
         16 => "Groceries",
-        17 => "Health Care & Beauty",
+        17 => "Beauty",
         18 => "Car Accessories",
         19 => "Industrial Appliances",
         20 => "Tickets & Vouchers",

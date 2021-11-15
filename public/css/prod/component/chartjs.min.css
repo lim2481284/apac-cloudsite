@@ -28,7 +28,6 @@
 }
 .half-donut-chart{
     width:100%;
-    padding:10%;        
     position: absolute;
     z-index: 1000;
     top: 50%;

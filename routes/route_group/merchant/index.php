@@ -30,6 +30,9 @@ Route::group(['namespace' => 'Merchant'], function () {
             # Customer route 
             require base_path('routes/route_group/merchant/customer.php');
 
+            # Analysis route 
+            require base_path('routes/route_group/merchant/analysis.php');
+
             # Order route 
             require base_path('routes/route_group/merchant/order.php');
 

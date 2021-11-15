@@ -25,14 +25,10 @@
             <div id='canvasSection'></div>
             <div id='buttonSection'>
                 <a href='{{env("MERCHANT_URL")}}'><button class='btn btn-primary nav-btn hover quote-btn' type='button'> <i class="ti ti-heart"></i><span> Get Started</span></button></a>
-                <a href='#about'><button class='btn btn-primary nav-btn about-btn' type='button'> <i class="ti ti-face-smile"></i><span> About </span></button></a>
+                <a href='https://github.com/lim2481284/apac-cloudsite'><button class='btn btn-primary nav-btn about-btn' type='button'> <i class="ti ti-face-smile"></i><span> About </span></button></a>
             </div>
         </div>
     </div>
-
-    <!-- Subpage section -->
-    @include('pages.website.subpage.service')
-    @include('pages.website.subpage.about')
 
      <!-- Post script section -->
     <script type="text/javascript" src="/js/plugin/threejs.js{{ config('app.link_version') }}"></script>
