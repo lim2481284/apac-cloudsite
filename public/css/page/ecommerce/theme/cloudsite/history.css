@@ -1,0 +1,73 @@
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.history-row{
+    padding-left: 10px !important;
+}
+
+.search-input{
+    
+    max-width: 200px;
+    margin: auto;
+    margin-right: 0;
+}
+}
+.check-order{
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.check-order:hover{
+    background:rgba(0,0,0,0.07);
+}
+
+.table thead th, .table td, .table th{
+    border:none;
+    padding-left:0;
+}
+.table thead th{
+    color:black !important;
+}
+
+.table td{
+    font-size: 13px;
+}
+
+.pagination{
+    justify-content: center;
+    margin-top: 50px;
+}
+.page-item.active .page-link{
+    background-color: var(--primary-theme-color);
+    border-color: var(--primary-theme-color);
+}
+.page-link{
+    color:#a7a7a7;
+}
+
+
+.delivery-badge-1, .transaction-badge-0{
+    color: #fff;
+    background-color: #e7c458;
+}
+.delivery-badge-3, .delivery-badge-2, .delivery-badge-4,  .transaction-badge-1{  
+    color: #fff;
+    background-color: #1dcf76;
+}
+.delivery-badge-0, .transaction-badge-4, .transaction-badge-5 {
+    color: #fff;
+    background-color: #898a8b; 
+}
+.delivery-badge-5,.delivery-badge-6,  .transaction-badge-6 , .transaction-badge-2, .transaction-badge-3{
+    color: #fff;
+    background-color: #af1717;
+}
+
+
+
+
+
+

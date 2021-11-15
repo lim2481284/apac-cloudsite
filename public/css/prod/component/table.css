@@ -141,6 +141,27 @@
 }
 
 
+#comingSoonModal img{
+    width: 50%;
+}
+#comingSoonModal h3{
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 25px;
+}
+#comingSoonModal p{
+    font-weight: 400;
+    font-size: var(--paragraph-font-size);
+    opacity: 0.7;
+}
+#comingSoonModal .modal-footer{
+    justify-content: center;
+}
+#comingSoonModal small{
+    opacity: 0.5;
+}
+
+
 .uploader {
     display: block;
     clear: both;

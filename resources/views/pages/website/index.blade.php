@@ -24,7 +24,7 @@
         <div id='contentSection'>
             <div id='canvasSection'></div>
             <div id='buttonSection'>
-                <a href='http://merchant.apac2.test'><button class='btn btn-primary nav-btn hover quote-btn' type='button'> <i class="ti ti-heart"></i><span> Get Started</span></button></a>
+                <a href='{{env("MERCHANT_URL")}}'><button class='btn btn-primary nav-btn hover quote-btn' type='button'> <i class="ti ti-heart"></i><span> Get Started</span></button></a>
                 <a href='#about'><button class='btn btn-primary nav-btn about-btn' type='button'> <i class="ti ti-face-smile"></i><span> About </span></button></a>
             </div>
         </div>

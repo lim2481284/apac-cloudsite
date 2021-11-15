@@ -12,29 +12,29 @@
               <div class='col-sm-6 col-12'>
                   <div class='service-box'>
                       <h1> Website Development </h1>
-                      <p> Cloudsite build your own professional company or personal website with fully customization just starting from RM 25 / Month </p>
-                      <button class='btn btn-primary btn-theme'  type='button' onclick="redirectQuote('Website')"> Starting from RM 25! </button>
+                      <p> Cloudsite build your own professional company or personal website with fully customization just starting from $25 / Month </p>
+                      <button class='btn btn-primary btn-theme'  type='button' onclick="redirectQuote('Website')"> Starting from $25! </button>
                   </div>
               </div>
               <div class='col-sm-6 col-12'>
                   <div class='service-box'>
                       <h1> Ecommerce </h1>
                       <p> Cloudsite build your own Online store with fully customization just starting from RM40 / Month </p>
-                      <button class='btn btn-primary btn-theme'  type='button' onclick="redirectQuote('Ecommerce')"> Starting from RM 40! </button>
+                      <button class='btn btn-primary btn-theme'  type='button' onclick="redirectQuote('Ecommerce')"> Starting from $40! </button>
                   </div>
               </div>
               <div class='col-sm-6 col-12'>
                   <div class='service-box'>
                       <h1> Booking System </h1>
-                      <p> Cloudsite build your own booking website system with fully customization just starting from RM 35 / Month </p>
-                      <button class='btn btn-primary btn-theme' type='button' onclick="redirectQuote('Booking')"> Starting from RM 35! </button>
+                      <p> Cloudsite build your own booking website system with fully customization just starting from $35 / Month </p>
+                      <button class='btn btn-primary btn-theme' type='button' onclick="redirectQuote('Booking')"> Starting from $35! </button>
                   </div>
               </div>
               <div class='col-sm-6 col-12'>
                   <div class='service-box'>
                       <h1> Company Dashboard System </h1>
-                      <p> Cloudsite build your internal company dashboard system with fully customization and flexible requirement just starting from RM 99 / Month </p>
-                      <button class='btn btn-primary btn-theme'  type='button' onclick="redirectQuote('Dashboard')"> Starting from RM 99! </button>
+                      <p> Cloudsite build your internal company dashboard system with fully customization and flexible requirement just starting from $99 / Month </p>
+                      <button class='btn btn-primary btn-theme'  type='button' onclick="redirectQuote('Dashboard')"> Starting from $99! </button>
                   </div>
               </div>
           </div>            

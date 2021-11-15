@@ -4,7 +4,7 @@
 </div>
 <div class='tool-overlay'></div>
 <ul class="tool-list">
-    <a href="http://ecommerce.apac2.test/{{getMerchant()->domain}}">
+    <a href='{{env("ECOMMERCE_URL")}}/{{getMerchant()->domain}}'>
         <li>Visit My Store <i class="ti-star"></i></li>
     </a>
     <a href="/product">

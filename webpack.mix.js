@@ -175,6 +175,80 @@ mix.scripts([
 
 /*****************************************************
 
+                 ECOMMERCE WEBPACK
+
+*****************************************************/
+
+mix.styles(
+    [
+        "public/css/plugin/animation.css",
+        "public/css/page/component/modal.css",
+        "public/css/page/ecommerce/theme/cloudsite/index.css",
+        "public/css/page/ecommerce/theme/cloudsite/responsive.css"
+    ],
+    "public/css/prod/ecommerce/theme/cloudsite/index.min.css"
+);
+
+mix.styles(
+    [
+        "public/css/page/ecommerce/default/cms.css",
+        "public/css/plugin/leftlet.css",
+        "public/css/plugin/slick.css",
+        "public/css/plugin/slick-theme.css"
+    ],
+    "public/css/prod/ecommerce/cms.min.css"
+);
+
+mix.styles(
+    [
+        "public/css/plugin/slick.css",
+        "public/css/plugin/likely.min.css",
+        "public/css/plugin/slick-theme.css",
+        "public/css/plugin/lightslider.min.css",
+        "public/css/plugin/lightgallery.min.css",
+        "public/css/plugin/jquery-tagsinput.min.css",
+        "public/css/page/ecommerce/theme/cloudsite/product.css"
+    ],
+    "public/css/prod/ecommerce/theme/cloudsite/product.min.css"
+);
+
+
+mix.scripts(
+    [
+        "public/js/plugin/wow.min.js",
+        "public/js/page/index.js",
+        "public/js/page/ecommerce/theme/cloudsite/index.js"
+    ],
+    "public/js/prod/ecommerce/theme/cloudsite/index.min.js"
+);
+
+mix.scripts(
+    [
+        "public/js/plugin/slick.min.js",
+        "public/js/plugin/leftlet.js",
+        "public/js/plugin/tinymce.min.js",
+        "public/js/page/component/tinymce.js",
+        "public/js/plugin/mixitup.min.js"
+    ],
+    "public/js/prod/ecommerce/cms.min.js"
+);
+
+mix.scripts(
+    [
+        "public/js/plugin/slick.min.js",
+        "public/js/plugin/likely.min.js",
+        "public/js/plugin/tinymce.min.js",
+        "public/js/plugin/lightslider.min.js",
+        "public/js/plugin/lightgallery.min.js",
+        "public/js/page/component/tinymce.js"
+    ],
+    "public/js/prod/ecommerce/theme/cloudsite/product.min.js"
+);
+
+
+
+/*****************************************************
+
                  COMPONENT WEBPACK
 
 *****************************************************/

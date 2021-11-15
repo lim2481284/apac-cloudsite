@@ -1,0 +1,219 @@
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.history-row {
+    padding-left: 10px !important;
+}
+
+.no-promo {
+    text-align: center;
+    padding-top: 50px;
+    ;
+}
+
+.no-promo small {
+    display: block;
+    opacity: 0.5;
+}
+
+.no-promo p {
+    font-size: 14px;
+    color: gray;
+}
+
+
+.stamp {
+    background: var(--primary-theme-color) ;
+    background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 5px, var(--primary-theme-color)  5px);
+    background-size: 15px 15px;
+    background-position: 8px 3px;
+    width: 301px;
+    height: 156px;
+    padding: 0 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.stamp:hover{
+    transform:scale(1.04);    
+}
+
+
+.stamp:before {
+    background-color: var(--primary-theme-color) ;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    z-index: -1;
+}
+
+.stamp:after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -2;
+}
+
+.stamp i {
+    position: absolute;
+    left: 20%;
+    top: 45px;
+    height: 190px;
+    width: 390px;
+    background-color: rgba(255, 255, 255, .15);
+    transform: rotate(-38deg);
+}
+
+.stamp .par {
+    float: left;
+    padding: 16px 15px;
+    width: 65%;
+    border-right: 2px dashed rgba(255, 255, 255, .3);
+    text-align: left;
+    background: var(--primary-theme-color);
+    height:100%;
+}
+
+.stamp .par p {
+    color: #fff;
+    font-weight: 100;
+    opacity: 1;
+}
+
+.stamp .par span {
+    font-size: 28px;
+    color: #fff;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.stamp .par .sign {
+    font-size: 34px;
+}
+
+.stamp .par sub {
+    position: relative;
+    top: -5px;
+    color: white;
+}
+
+.stamp .copy {
+    display: inline-block;
+    padding: 21px 14px;
+    width: 35%;
+    vertical-align: text-bottom;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:var(--primary-theme-color);
+}
+
+.stamp .copy p {
+    margin: 0;
+    opacity: 0.8;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top:5px;
+    text-align: center;
+    color:white;
+}
+
+.stamp .copy a {
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+}
+
+
+.code-section{
+    width: 100%;
+    min-width: 300px;
+    height: 150px;
+    text-align: center;    
+    font-size: 28px;
+    font-weight: 700;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;           
+}
+.code-section p{
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+#promocodeModal .detail b{
+    font-size: var(--h5-font-size) !important;
+    font-weight: 700 !important;
+}
+#promocodeModal .detail{
+    padding-top:40px;
+    padding-bottom: 10px;
+}   
+
+
+#promocodeModal .modal-content{
+    padding: 8%;
+}
+#promocodeModal .modal-close-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: auto;
+    margin-right: 0;
+}
+#codeText{
+    font-size: var(--h6-font-size);
+    background: white;
+    border: 3px dashed var(--primary-theme-color);
+    padding: 8px 21px;
+    width: 50%;
+    font-weight: 500;
+}
+
+.code-section p{
+    color: var(--primary-theme-color) !important;
+    font-size: var(--h1-font-size);
+    font-weight: 800;
+}
+
+.form-group p{
+    margin-bottom: 5px;
+    font-size: var(--small-font-size);
+    opacity: 0.5;
+}
+
+.form-group input, .form-group textarea{
+    padding: 0;
+    border: none;
+    font-weight: 500;
+    background:none !important;
+}

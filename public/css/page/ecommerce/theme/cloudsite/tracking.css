@@ -1,0 +1,143 @@
+
+.tracking-processing{
+    width: 100%;
+    text-align: center;
+}
+
+.tracking-processing h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+body{
+    background:white;
+}
+.tracking-processing img{
+    max-width:350px;
+}
+
+
+.progress-steps {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .progress-steps > div {
+    margin-left: 39px;
+    position: relative;
+    min-height: 140px;
+  }
+  .progress-steps > div.hidden {
+    display: none;
+  }
+  .progress-steps > div.active > h1::before {
+    border: none;
+  }
+  .progress-steps > div.complete > h1 {
+    color: #79BD9A;
+    font-weight: 600;
+  }
+  .progress-steps > div.complete > h1 > .number {
+    background: #79BD9A;
+    color: #FFF;
+    margin-right: 25px;
+  }
+  .progress-steps > div:last-child > h1::before {
+    border: none;
+  }
+  .progress-steps > div > h1 {
+    font-size: 1em;
+    margin-left: -39px;
+    color: #222;
+    font-weight: 600;
+  }
+  .progress-steps > div > h1 > .number {
+    background: #16C4C7;
+    color: #FFF;
+  }
+  .progress-steps > div > h1::before {
+    content: '';
+    position: absolute;
+    border-left: dashed 1px #D4D4D1;
+    width: 1px;
+    height: calc(100% - 27px);
+    top: 39px;
+    left: -22.5px;
+  }
+  .progress-steps > div > h1 > .number {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    display: block;
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 50px;
+    float: left;
+  }
+  .progress-steps .date{
+    font-size: 13px;
+    opacity: 0.4;
+    color: black;
+    font-weight: 400;
+    display:block;
+  }
+  .progress-steps .status{
+    color: black;
+    display:block;
+    font-weight: 700;
+    font-size: var(--p-font-size);
+    margin-top: 10px;
+  }
+  .progress-steps .location{
+    color: black;
+    display:block;
+    font-weight: 300;
+    font-size: var(--label-font-size);
+  }
+
+
+  .tracking-container h1{
+    font-size: var(--h3-font-size);
+    font-weight: 800;
+
+  }
+
+  .tracking-container .left-section{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .tracking-container .left-section img{
+    position: sticky;
+    top: 100px;
+  }
+
+  .tracking-info-box{
+    max-width: 400px;
+    margin: auto;
+    background: rgba(0,0,0,0.025);
+    border-radius: 5px;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.05);
+    padding: 15px;
+    margin-top: 25px;
+  }
+
+  .courier{
+    margin-bottom: 0;
+    margin-top:15px;
+    font-size: var(--p-font-size);
+    font-weight: 600;
+  }
+
+  .tracking_id{
+    font-size: var(--label-font-size);
+    opacity: 0.8;
+    margin: 0;
+  }
+
+  .tracking-container .tracking_id{
+    margin-bottom: 50px;
+  }
+
+  .badge-secondary{
+      background-color: rgb(139 139 139 / 40%);
+  }
