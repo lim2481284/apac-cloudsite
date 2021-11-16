@@ -103,6 +103,7 @@ How to start the application
 
 ```sh
 Open 'Topology' page > click on the cloudsite pod > Resoruces tab > Start build
+Open 'Pods' page > click on the 'running' cloudsite pod > Terminal tab > run command 'php artisan migrate:fresh' 
 ```
 
 
