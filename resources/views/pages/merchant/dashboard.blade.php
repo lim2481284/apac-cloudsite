@@ -17,7 +17,7 @@
         <div class='ref-box'>
             <h1>Grow your business with Cloudsite </h1>
             <p>Sell and manage e-commerce business with merchants on Cloudsite platform </p>
-            <a href='{{env("ECOMMERCE_URL")}}/{{getMerchant()->domain}}'><button class='btn btn-default onboarding-btn'>Visit My Store </button></a>
+            <a href='{{env("ECOMMERCE_URL")}}{{getMerchant()->domain}}'><button class='btn btn-default onboarding-btn'>Visit My Store </button></a>
             <button class='btn btn-primary under-development' data-title='Onboarding Checklist' data-desc='This feature will guide merchants how to set up their online store step by step.'> Onboarding </button>
             <img src='/img/picture/refland3.gif'/>
         </div>
